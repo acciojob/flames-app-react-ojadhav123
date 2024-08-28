@@ -1,16 +1,14 @@
-import React, {Component, useState} from "react";
-import '../styles/App.css';
+import React from 'react';
+import FlamesGame from './FlamesGame';
+import './App.css';
 
-class App extends Component {
-    render() {
-
-        return(
-            <div id="main">
-               {/* Do not remove the main div */}
-            </div>
-        )
-    }
+function App() {
+  return (
+    <div className="App">
+      <h1>FLAMES Game</h1>
+      <FlamesGame />
+    </div>
+  );
 }
-
 
 export default App;
