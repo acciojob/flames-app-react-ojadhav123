@@ -91,4 +91,3 @@ const FlamesGame = () => {
 };
 
 export default FlamesGame;
-
